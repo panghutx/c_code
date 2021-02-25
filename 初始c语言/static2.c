@@ -2,7 +2,7 @@
  void test()
  {
  	//static修饰局部变量，生命周期变长 
- 	static a=0;//a是一个静态的局部变量 
+ 	static int a=0;//a是一个静态的局部变量 
  	a++;
  	printf("a=%d\n",a);//a=1,2,3,4,5 
  }

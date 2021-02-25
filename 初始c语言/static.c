@@ -1,7 +1,7 @@
 #include<stdio.h>
  void test()
  {
- 	a=0;
+ 	int a=0;
  	a++;
  	printf("a=%d\n",a);
  }
